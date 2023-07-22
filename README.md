@@ -20,13 +20,13 @@ composer install
 ## Manual start
 ```bash
 
-# Termial-01
+# Terminal-01
 npm run watch
 
-# Termial-02
+# Terminal-02
 npm run live-server
 
-# Termial-03
+# Terminal-03
 npm run open
 
 ```
