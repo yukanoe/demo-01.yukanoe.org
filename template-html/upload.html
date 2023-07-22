@@ -1,0 +1,49 @@
+<!doctype html>
+<html data-theme="dark">
+<!-- data-yukanoe-include="inc-head.html" -->
+<body>
+  <!-- data-yukanoe-include="inc-body-header.html" -->
+
+  <div class="bg-base-200 px-4 py-1">
+
+    <div class="card w-full md:w-1/2 my-2 mx-auto bg-base-100 shadow-xl">
+      <div class="w-4/5 mx-4">
+        <div class="my-4">
+          <progress 
+            id="downloadbar"
+            data-yukanoe-id="downloadbar"
+            class="progress progress-info w-3/4" 
+            value="0" 
+            max="100" 
+            step="1"
+          ></progress>
+          <p
+            id="downloadtext"
+            data-yukanoe-id="downloadtext"
+          >Text</p>
+        </div>
+
+        <div class="flex">
+          <input 
+            type="file" 
+            id="file"
+            data-yukanoe-id="file"
+            class="file-input file-input-bordered file-input-accent  w-full max-w-xs" 
+          />
+          <button class="btn btn-outline btn-success mx-4" type="button" value="upload"
+            onclick="runUploadMain()">Upload</button>
+        </div>
+
+        <div class="my-4">
+          <h3>Result:</h3>
+          <p 
+            id="result"
+            data-yukanoe-id="result"
+          >Text</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- data-yukanoe-include="inc-body-footer.html" -->
+</body>
+</html>

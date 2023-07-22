@@ -1,0 +1,51 @@
+<div class="navbar bg-base-100 flex-wrap">
+    <!-- Menu -->
+    <div class="flex-1">
+      <a href="/index.html" class="btn btn-ghost normal-case text-sm px-2">HOME</a>
+      <a href="/login.html" class="btn btn-ghost normal-case text-sm px-2">Login</a>
+      <a href="/edit.html" class="btn btn-ghost normal-case text-sm px-2">Edit</a>
+      <a href="/upload.html" class="btn btn-ghost normal-case text-sm px-2">Upload</a>
+    </div>
+
+    <div class="flex-none gap-2">
+      <!-- SEARCH BAR -->
+      <div class="form-control hidden md:flex">
+        <input type="text" placeholder="Search" class="input input-bordered" />
+      </div>
+      <!-- USER BAR -->
+      <div class="dropdown dropdown-end" data-yukanoe-id="user" data-yukanoe-hidden="false">
+        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img src="../images/default-avatar.png" />
+          </div>
+        </label>
+        <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+          <li class="form-control sm:hidden">
+            <input type="text" placeholder="Search" class="input input-bordered" />
+          </li>
+          <li>
+            <a class="justify-between">
+              Profile
+              <span class="badge">New</span>
+            </a>
+          </li>
+          <li><a>Settings</a></li>
+          <li><a href="?act=logout">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+<div class="bg-base-200 px-4 -mb-2 pt-1">
+
+    <div data-yukanoe-id="alert-success" data-yukanoe-hidden="true" class="alert alert-success my-2 md:w-1/4">
+      <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <span>Your purchase has been confirmed!</span>
+    </div>
+
+    <div data-yukanoe-id="alert-error" data-yukanoe-hidden="true" class="alert alert-error my-2 md:w-1/4">
+      <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <span>Error! Task failed successfully.</span>
+    </div>
+
+</div>

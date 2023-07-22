@@ -1,0 +1,13 @@
+{
+    "name": "yukanoe/demo-01.yukanoe.org",
+    "description": "yukanoe/demo-01.yukanoe.org",
+    "authors": [
+        {
+            "name": "yukanoe",
+            "email": "contact@yukanoe.org"
+        }
+    ],
+    "require": {
+        "yukanoe/html": "^1.0"
+    }
+}
