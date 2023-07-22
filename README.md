@@ -1,8 +1,9 @@
-# id-yukanoe-html
+# demo-01.yukanoe.org
 
 ## Requirements
 
 - [PHP - 8](https://windows.php.net/download/) or higher
+- [Composer](https://getcomposer.org/download/)
 - [Node.js 18](https://nodejs.org/en/download/current) or higher
 - [Git](https://git-scm.com/downloads)
 
@@ -17,7 +18,10 @@ composer install
 ```
 
 ## Manual start
-```sh
+```bash
 npm run watch
 npm run live-server
 ```
+
+## More about daisyUI
+ - https://github.com/saadeghi/daisyui
