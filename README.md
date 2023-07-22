@@ -31,6 +31,11 @@ npm run open
 
 ```
 
+## More about Yukanoe\HTML
+ - https://github.com/yukanoe/html
+ - https://github.com/yukanoe/html/tree/master/docs
+ - https://github.com/yukanoe/html/tree/master/tests
+
 ## More about daisyUI
  - https://daisyui.com/docs/use/
  - https://github.com/saadeghi/daisyui
