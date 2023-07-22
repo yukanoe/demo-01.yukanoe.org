@@ -1,12 +1,13 @@
 {
+
   "scripts": {
-    "start": " npm run open & npm run watch & npm run pserver ",
     "open": "start http://localhost:8080",
-    "live-server" : "php -S localhost:8080 live-server.php",
+    "live-server": "php -S localhost:8080 live-server.php",
     "watch": "npx tailwindcss -i ./tailwind.input.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
+    "@tailwindcss/typography": "^0.5.9",
+    "concurrently": "^8.2.0"
   },
   "dependencies": {
     "daisyui": "^3.1.10"

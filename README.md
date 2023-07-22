@@ -19,9 +19,18 @@ composer install
 
 ## Manual start
 ```bash
+
+# Termial-01
 npm run watch
+
+# Termial-02
 npm run live-server
+
+# Termial-03
+npm run open
+
 ```
 
 ## More about daisyUI
+ - https://daisyui.com/docs/use/
  - https://github.com/saadeghi/daisyui
