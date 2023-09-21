@@ -133,4 +133,4 @@ dist
 
 vendor/
 composer.phar
-composer.lock
+

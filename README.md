@@ -11,10 +11,13 @@
 
 ## Quick setup guide
 ```bash
+
 git clone https://github.com/yukanoe/demo-01.yukanoe.org.git
-cd  demo-01.yukanoe.org
+cd demo-01.yukanoe.org
 npm install
 composer install
+
+
 ```
 
 ## Manual start
@@ -28,6 +31,7 @@ npm run live-server
 
 # Terminal-03
 npm run open
+
 
 ```
 

@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9462da258514fd41dedd39522b406eb1",
+    "packages": [
+        {
+            "name": "yukanoe/html",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yukanoe/html.git",
+                "reference": "4acc4ea6a28dac35377c91c94ac16f2ca7956685"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yukanoe/html/zipball/4acc4ea6a28dac35377c91c94ac16f2ca7956685",
+                "reference": "4acc4ea6a28dac35377c91c94ac16f2ca7956685",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yukanoe\\HTML\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kirishimayuu",
+                    "email": "kirishimayuu@yukanoe.org",
+                    "homepage": "https://yukanoe.org/html"
+                }
+            ],
+            "description": "A PHP library - Minimal, Simple and Portable DOM.",
+            "homepage": "https://github.com/yukanoe/html",
+            "keywords": [
+                "dom",
+                "html",
+                "xhtml",
+                "yukanoe"
+            ],
+            "support": {
+                "email": "contact@yukanoe.org",
+                "issues": "https://github.com/yukanoe/html/issues",
+                "source": "https://github.com/yukanoe/html/tree/1.0.3"
+            },
+            "time": "2023-07-23T00:59:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
