@@ -1,6 +1,8 @@
 module.exports = {
   //...
-  content: ["./template-html/**/*.{html,js}"],
+  content: [
+    "./template-html/**/*.{html,js}"
+  ],
 
   // add daisyUI plugin
   plugins: [
